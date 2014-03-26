@@ -1,0 +1,18 @@
+<!doctype html>
+<html data-ng-app="semwebApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Web</title>
+        <script src="../bower_components/angular/angular.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body data-ng-controller="semwebAppCtrl">
+        <form data-ng-submit="doQuery(query)">
+            <textarea data-ng-model="query" cols="80" rows="10"></textarea>
+            <button type="submit">Query</button>
+        </form>
+        <ul>
+            <li data-ng-repeat="result in results">{{result}}</li>
+        </ul>
+    </body>
+</html>
