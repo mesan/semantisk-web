@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rdf:RDF xmlns:rdf="http://www.w3c.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/elements/1.1/"	
+         xmlns:msw="http://www.mesan.no/semantisk-web#">
+         
+         <rdf:description rdf:about="http://www.matvaretabellen.no/01.059">
+         	<dc:title>Prim</dc:title>
+         	<dc:identifier>01.059</dc:identifier>
+         	<msw:spiselig>100</msw:spiselig>
+         	<msw:vann>40</msw:vann>
+         	<msw:energi>200</msw:energi>
+         </rdf:description>
+           
+         <rdf:description rdf:about="http://www.mesan.no/semantisk-web/bestandsdeler#spiselig">
+         	<dc:title>Spiselig del</dc:title>
+         	<msw:enhet>%</msw:enhet>
+         	<dc:description>Andel av varen som kan spises</dc:description>
+         	<dc:type>egenskap</dc:type>
+         </rdf:description>
+         
+         <rdf:description rdf:about="http://www.mesan.no/semantisk-web/bestandsdeler#vann">
+         	<dc:title>Vann</dc:title>
+         	<msw:enhet>g</msw:enhet>
+         	<dc:description>Vanninnhold pr 100g</dc:description>
+         	<dc:type>naeringsstoff</dc:type>
+         </rdf:description>   
+         
+         <rdf:description rdf:about="http://www.mesan.no/semantisk-web/bestandsdeler#energi">
+         	<dc:title>Kilojoule</dc:title>
+         	<msw:enhet>kJ</msw:enhet>
+         	<dc:description>Energiinnhold</dc:description>
+         	<dc:type>naeringsstoff</dc:type>
+         </rdf:description>  
+         
+</rdf:RDF>
