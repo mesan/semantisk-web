@@ -19,10 +19,10 @@
     <xsl:template match="rdf:Description">
         <rdf:Description>
             <xsl:attribute name="rdf:about">
-                <xsl:value-of select="rdf:about" />
+                <xsl:value-of select="msw:about" />
             </xsl:attribute>
             <xsl:apply-templates select="rdf:type" />
-            <xsl:copy-of select="*[not(self::rdf:type)]"/>
+            <xsl:copy-of select="*[not(self::rdf:type)][not(self::msw:about)]"/>
         </rdf:Description>
     </xsl:template>
     

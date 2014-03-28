@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:msw="http://www.mesan.no/semantisk-web#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3c.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#spiseligDel">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Property"/>
+    <dc:description>Vurdert verdi.</dc:description>
+    <dc:title>Spiselig del</dc:title>
+    <msw:enhet>%</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#vann">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Vann</dc:title>
+    <msw:enhet>g</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#kilojoule">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi for energi med følgende faktorer for hhv protein 17, fett 37, karbohydrat 17, kostfiber 8 og alkohol 29 kJ/g.</dc:description>
+    <dc:title>Kilojoule</dc:title>
+    <msw:enhet>kJ</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#kilokalorier">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi for energi med følgende faktorer for hhv protein 4, fett 9, karbohydrat 4, kostfiber 2 og alkohol 7 kcal/g.</dc:description>
+    <dc:title>Kilokalorier</dc:title>
+    <msw:enhet>kcal</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#fett">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Fett</dc:title>
+    <msw:enhet>g</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#mettet">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Mettet</dc:title>
+    <msw:enhet>g</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#trans">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Vurdert som naturlig forekommende nullverdi, ikke analysert.</dc:description>
+    <dc:title>Trans</dc:title>
+    <msw:enhet>g</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#enumettet">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Enumettet</dc:title>
+    <msw:enhet>g</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#flerumettet">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Flerumettet</dc:title>
+    <msw:enhet>g</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#kolesterol">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Kolesterol</dc:title>
+    <msw:enhet>mg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#karbohydrat">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Karbohydrat</dc:title>
+    <msw:enhet>g</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#stivelse">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Stivelse</dc:title>
+    <msw:enhet>g</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#monoDisakk">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Mono+Disakk</dc:title>
+    <msw:enhet>g</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#sukkerTilsatt">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Sukker, tilsatt</dc:title>
+    <msw:enhet>g</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#kostfiber">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Kostfiber</dc:title>
+    <msw:enhet>g</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#protein">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Protein</dc:title>
+    <msw:enhet>g</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#salt">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet som innholdet natrium x 2,5 /1000</dc:description>
+    <dc:title>Salt</dc:title>
+    <msw:enhet>g</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#alkohol">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Vurdert som naturlig forekommende nullverdi, ikke analysert.</dc:description>
+    <dc:title>Alkohol</dc:title>
+    <msw:enhet>g</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#retinol">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet som summen av retinol + 1/12 beta-karoten.</dc:description>
+    <dc:title>Retinol</dc:title>
+    <msw:enhet>µg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#betakaroten">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Betakaroten</dc:title>
+    <msw:enhet>µg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#vitaminA">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Vitamin A</dc:title>
+    <msw:enhet>RAE</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#vitaminD">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Vitamin D</dc:title>
+    <msw:enhet>µg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#vitaminE">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Vitamin E</dc:title>
+    <msw:enhet>alfa-TE</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#tiamin">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Tiamin</dc:title>
+    <msw:enhet>mg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#riboflavin">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Riboflavin</dc:title>
+    <msw:enhet>mg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#niacin">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Niacin</dc:title>
+    <msw:enhet>mg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#vitaminB6">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Vitamin B6</dc:title>
+    <msw:enhet>mg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#folat">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Folat</dc:title>
+    <msw:enhet>µg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#vitaminB12">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Vitamin B12</dc:title>
+    <msw:enhet>µg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#vitaminC">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Vitamin C</dc:title>
+    <msw:enhet>mg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#kalsium">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Kalsium</dc:title>
+    <msw:enhet>mg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#jern">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Jern</dc:title>
+    <msw:enhet>mg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#natrium">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Natrium</dc:title>
+    <msw:enhet>mg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#kalium">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Kalium</dc:title>
+    <msw:enhet>mg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#magnesium">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Magnesium</dc:title>
+    <msw:enhet>mg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#sink">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Sink</dc:title>
+    <msw:enhet>mg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#selen">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Selen</dc:title>
+    <msw:enhet>µg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#kobber">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Kobber</dc:title>
+    <msw:enhet>mg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#fosfor">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Beregnet verdi fra intern oppskrift (til Matvaretabellen 2006 eller tidligere versjon).</dc:description>
+    <dc:title>Fosfor</dc:title>
+    <msw:enhet>mg</msw:enhet>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#jod">
+    <rdf:type rdf:resource="http://dbpedia.org/resource/Nutrients"/>
+    <dc:description>Manglende verdi, ukjent innhold.</dc:description>
+    <dc:title>Jod</dc:title>
+    <msw:enhet>µg</msw:enhet>
+  </rdf:Description>
+</rdf:RDF>

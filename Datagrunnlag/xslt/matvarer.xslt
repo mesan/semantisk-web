@@ -28,7 +28,9 @@
     
     <xsl:template name="rdf:type">
         <rdf:type>
-            <xsl:attribute name="rdf:resource">http://dbpedia.org/resource/Ingredient</xsl:attribute>
+            <xsl:attribute name="rdf:resource">
+				<xsl:text>http://dbpedia.org/resource/Ingredient</xsl:text>
+			</xsl:attribute>
         </rdf:type>
     </xsl:template>
     
