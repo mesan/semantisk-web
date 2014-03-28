@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asta:ProtokollEksport xmlns:asta="http://www.stiftelsen-asta.no">
+    <asta:protokoll>
+        <asta:beskrivelse>Konvertering av matvaretabellen 2014 fra XLS til RDF/XML.</asta:beskrivelse>
+        <asta:navn>Matvaretabellen 2014</asta:navn>
+        <asta:offlineId>76238279403484783407</asta:offlineId>
+        <asta:sistEndret>2014-03-27T18:18:50.486+01:00</asta:sistEndret>
+        <asta:type>REGISTRERING</asta:type>
+        <asta:versjonNr>1</asta:versjonNr>
+    </asta:protokoll>
+</asta:ProtokollEksport>

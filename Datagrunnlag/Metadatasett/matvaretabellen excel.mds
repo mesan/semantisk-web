@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<asta:XlsFilEksport xmlns:asta="http://www.stiftelsen-asta.no">
+    <asta:xlsFil>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>MatvareID</asta:bruksNavn>
+            <asta:sekvensNummer>1</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>A</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Matvare</asta:bruksNavn>
+            <asta:sekvensNummer>2</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>B</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Spiselig del</asta:bruksNavn>
+            <asta:sekvensNummer>3</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>C</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Vann</asta:bruksNavn>
+            <asta:sekvensNummer>4</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>E</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Kilojoule</asta:bruksNavn>
+            <asta:sekvensNummer>5</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>G</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Kilokalorier</asta:bruksNavn>
+            <asta:sekvensNummer>6</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>I</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Fett</asta:bruksNavn>
+            <asta:sekvensNummer>7</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>K</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Mettet</asta:bruksNavn>
+            <asta:sekvensNummer>8</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>M</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Trans</asta:bruksNavn>
+            <asta:sekvensNummer>9</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>O</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Enumettet</asta:bruksNavn>
+            <asta:sekvensNummer>10</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>Q</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Flerumettet</asta:bruksNavn>
+            <asta:sekvensNummer>11</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>S</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Kolesterol</asta:bruksNavn>
+            <asta:sekvensNummer>12</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>U</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Karbohydrat</asta:bruksNavn>
+            <asta:sekvensNummer>13</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>W</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Stivelse</asta:bruksNavn>
+            <asta:sekvensNummer>14</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>Y</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Mono+Disakk</asta:bruksNavn>
+            <asta:sekvensNummer>15</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>AA</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Sukker, tilsatt</asta:bruksNavn>
+            <asta:sekvensNummer>16</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>AC</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Kostfiber</asta:bruksNavn>
+            <asta:sekvensNummer>17</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>AE</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Protein</asta:bruksNavn>
+            <asta:sekvensNummer>18</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>AG</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Salt</asta:bruksNavn>
+            <asta:sekvensNummer>19</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>AI</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Alkohol</asta:bruksNavn>
+            <asta:sekvensNummer>20</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>AK</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Retinol</asta:bruksNavn>
+            <asta:sekvensNummer>21</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>AM</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Betakaroten</asta:bruksNavn>
+            <asta:sekvensNummer>22</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>AO</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Vitamin A</asta:bruksNavn>
+            <asta:sekvensNummer>23</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>AQ</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Vitamin D</asta:bruksNavn>
+            <asta:sekvensNummer>24</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>AS</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Vitamin E</asta:bruksNavn>
+            <asta:sekvensNummer>25</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>AU</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Tiamin</asta:bruksNavn>
+            <asta:sekvensNummer>26</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>AW</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Riboflavin</asta:bruksNavn>
+            <asta:sekvensNummer>27</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>AY</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Niacin</asta:bruksNavn>
+            <asta:sekvensNummer>28</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>BA</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Vitamin B6</asta:bruksNavn>
+            <asta:sekvensNummer>29</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>BC</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Folat</asta:bruksNavn>
+            <asta:sekvensNummer>30</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>BE</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Vitamin B12</asta:bruksNavn>
+            <asta:sekvensNummer>31</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>BG</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Vitamin C</asta:bruksNavn>
+            <asta:sekvensNummer>32</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>BI</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Kalsium</asta:bruksNavn>
+            <asta:sekvensNummer>33</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>BK</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Jern</asta:bruksNavn>
+            <asta:sekvensNummer>34</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>BM</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Natrium</asta:bruksNavn>
+            <asta:sekvensNummer>35</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>BO</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Kalium</asta:bruksNavn>
+            <asta:sekvensNummer>36</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>BQ</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Magnesium</asta:bruksNavn>
+            <asta:sekvensNummer>37</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>BS</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Sink</asta:bruksNavn>
+            <asta:sekvensNummer>38</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>BU</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Selen</asta:bruksNavn>
+            <asta:sekvensNummer>39</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>BW</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Kobber</asta:bruksNavn>
+            <asta:sekvensNummer>40</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>BY</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Fosfor</asta:bruksNavn>
+            <asta:sekvensNummer>41</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>CA</asta:navn>
+        </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Jod</asta:bruksNavn>
+            <asta:sekvensNummer>42</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>CC</asta:navn>
+        </asta:enheter>
+        <asta:navn>Matevaretabellen XLS</asta:navn>
+        <asta:sistEndret>2014-03-27T18:35:03.063+01:00</asta:sistEndret>
+        <asta:dataArk>Ark1</asta:dataArk>
+        <asta:startRad>3</asta:startRad>
+    </asta:xlsFil>
+</asta:XlsFilEksport>
