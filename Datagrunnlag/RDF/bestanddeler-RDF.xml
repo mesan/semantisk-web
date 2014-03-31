@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns:msw="http://www.mesan.no/semantisk-web#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3c.org/1999/02/22-rdf-syntax-ns#">
+<rdf:RDF xmlns:msw="http://www.mesan.no/semantisk-web#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <rdf:Description rdf:about="http://www.mesan.no/semantisk-web#spiseligDel">
     <rdf:type rdf:resource="http://dbpedia.org/resource/Property"/>
     <dc:description>Vurdert verdi.</dc:description>
