@@ -1,10 +1,11 @@
 {
-  "name": "Web",
+  "name": "web-template",
   "version": "0.0.0",
   "authors": [
     "Christian Gjerde Jensen <me@cgj.me>"
   ],
   "dependencies": {
-    "angular": "~1.2.15"
+    "angular": "~1.2.15",
+    "bootstrap": "~3.1.1"
   }
 }

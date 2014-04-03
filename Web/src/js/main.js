@@ -1,6 +1,6 @@
-angular.module("semwebApp", [])
+angular.module("main", [])
 
-.controller("semwebAppCtrl", function ($scope, sparql) {
+.controller("mainCtrl", function ($scope, sparql) {
   $scope.query = "SELECT ?title\n" +
     "WHERE {\n" +
     "?game <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:First-person_shooters> .\n" +

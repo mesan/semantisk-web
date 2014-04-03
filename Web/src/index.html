@@ -1,18 +1,65 @@
-<!doctype html>
-<html data-ng-app="semwebApp">
+<!DOCTYPE html>
+<html lang="en" data-ng-app="main">
     <head>
         <meta charset="utf-8">
-        <title>Web</title>
-        <script src="../bower_components/angular/angular.js"></script>
-        <script src="app.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Semantisk Web Test</title>
+
+        <!-- inject:css -->
+        <!-- any *.css files among your sources will go here as: <link rel="stylesheet" href="FILE"> -->
+        <!-- endinject -->
+
+        <!-- inject:js -->
+        <!-- any *.js files among your sources will go here as: <script src="FILE"></script> -->
+        <!-- endinject -->
     </head>
-    <body data-ng-controller="semwebAppCtrl">
-        <form data-ng-submit="doQuery(query)">
-            <textarea data-ng-model="query" cols="80" rows="10"></textarea>
-            <button type="submit">Query</button>
-        </form>
-        <ul>
-            <li data-ng-repeat="result in results">{{result}}</li>
-        </ul>
+    <body data-ng-controller="mainCtrl">
+        <nav class="navbar navbar-static-top navbar-inverse" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">SemWeb</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right" role="search">
+                        <input type="text" class="form-control" placeholder="Search">
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <h1 class="text-center">Søk i <a href="http://wiki.dbpedia.org/OnlineAccess#h28-6" target="_blank">dbpedia</a></h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="" data-ng-submit="doQuery(query)">
+                        <div class="form-group">
+                            <textarea class="form-control" data-ng-model="query" cols="80" rows="10"></textarea>
+                        </div>
+                        <button class="form-control btn btn-primary" type="submit">Query</button>
+                    </form>
+                    <br/>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">Results</div>
+                        <ul class="list-group">
+                            <li class="list-group-item" data-ng-repeat="result in results">{{result}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>

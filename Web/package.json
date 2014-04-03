@@ -1,0 +1,24 @@
+{
+  "name": "web-template",
+  "version": "0.0.0",
+  "author": "Christian Gjerde Jensen",
+  "description": "A template for web development",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-util": "^2.2.14",
+    "gulp": "^3.5.6",
+    "gulp-concat": "^2.2.0",
+    "gulp-uglify": "~0.2.1",
+    "gulp-jshint": "^1.5.0",
+    "gulp-inject": "~0.4.0",
+    "gulp-less": "^1.2.3",
+    "gulp-clean": "~0.2.4",
+    "gulp-w3cjs": "^0.1.2",
+    "gulp-livereload": "^1.2.0",
+    "gulp-changed": "^0.2.1",
+    "gulp-manifest": "https://github.com/timdp/gulp-manifest/tarball/master",
+    "gulp-bower-files": "^0.2.1",
+    "jshint-stylish": "^0.1.5",
+    "gulp-ngmin": "^0.1.2"
+  }
+}
