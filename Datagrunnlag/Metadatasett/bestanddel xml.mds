@@ -4,13 +4,13 @@
         <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
             <asta:bruksNavn>RDF</asta:bruksNavn>
             <asta:sekvensNummer>1</asta:sekvensNummer>
-            <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+            <asta:namespace>http://www.w3.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
             <asta:navn>RDF</asta:navn>
             <asta:prefix>rdf</asta:prefix>
             <asta:xmlSchemaElements>
                 <asta:bruksNavn>Description</asta:bruksNavn>
                 <asta:sekvensNummer>2</asta:sekvensNummer>
-                <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+                <asta:namespace>http://www.w3.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
                 <asta:navn>Description</asta:navn>
                 <asta:prefix>rdf</asta:prefix>
                 <asta:xmlSchemaElements>
@@ -44,7 +44,7 @@
                 <asta:xmlSchemaElements>
                     <asta:bruksNavn>Type</asta:bruksNavn>
                     <asta:sekvensNummer>6</asta:sekvensNummer>
-                    <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+                    <asta:namespace>http://www.w3.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
                     <asta:navn>type</asta:navn>
                     <asta:prefix>rdf</asta:prefix>
                 </asta:xmlSchemaElements>
@@ -53,7 +53,7 @@
         <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
             <asta:bruksNavn>Description</asta:bruksNavn>
             <asta:sekvensNummer>2</asta:sekvensNummer>
-            <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+            <asta:namespace>http://www.w3.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
             <asta:navn>Description</asta:navn>
             <asta:prefix>rdf</asta:prefix>
             <asta:xmlSchemaElements>
@@ -87,7 +87,7 @@
             <asta:xmlSchemaElements>
                 <asta:bruksNavn>Type</asta:bruksNavn>
                 <asta:sekvensNummer>6</asta:sekvensNummer>
-                <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+                <asta:namespace>http://www.w3.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
                 <asta:navn>type</asta:navn>
                 <asta:prefix>rdf</asta:prefix>
             </asta:xmlSchemaElements>
@@ -116,7 +116,7 @@
         <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
             <asta:bruksNavn>Type</asta:bruksNavn>
             <asta:sekvensNummer>6</asta:sekvensNummer>
-            <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+            <asta:namespace>http://www.w3.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
             <asta:navn>type</asta:navn>
             <asta:prefix>rdf</asta:prefix>
         </asta:enheter>
@@ -132,7 +132,7 @@
         <asta:recordSeparator>
             <asta:bruksNavn>Description</asta:bruksNavn>
             <asta:sekvensNummer>2</asta:sekvensNummer>
-            <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+            <asta:namespace>http://www.w3.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
             <asta:navn>Description</asta:navn>
             <asta:prefix>rdf</asta:prefix>
             <asta:xmlSchemaElements>
@@ -166,7 +166,7 @@
             <asta:xmlSchemaElements>
                 <asta:bruksNavn>Type</asta:bruksNavn>
                 <asta:sekvensNummer>6</asta:sekvensNummer>
-                <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+                <asta:namespace>http://www.w3.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
                 <asta:navn>type</asta:navn>
                 <asta:prefix>rdf</asta:prefix>
             </asta:xmlSchemaElements>
@@ -174,13 +174,13 @@
         <asta:rot>
             <asta:bruksNavn>RDF</asta:bruksNavn>
             <asta:sekvensNummer>1</asta:sekvensNummer>
-            <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+            <asta:namespace>http://www.w3.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
             <asta:navn>RDF</asta:navn>
             <asta:prefix>rdf</asta:prefix>
             <asta:xmlSchemaElements>
                 <asta:bruksNavn>Description</asta:bruksNavn>
                 <asta:sekvensNummer>2</asta:sekvensNummer>
-                <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+                <asta:namespace>http://www.w3.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
                 <asta:navn>Description</asta:navn>
                 <asta:prefix>rdf</asta:prefix>
                 <asta:xmlSchemaElements>
@@ -214,7 +214,7 @@
                 <asta:xmlSchemaElements>
                     <asta:bruksNavn>Type</asta:bruksNavn>
                     <asta:sekvensNummer>6</asta:sekvensNummer>
-                    <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+                    <asta:namespace>http://www.w3.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
                     <asta:navn>type</asta:navn>
                     <asta:prefix>rdf</asta:prefix>
                 </asta:xmlSchemaElements>
