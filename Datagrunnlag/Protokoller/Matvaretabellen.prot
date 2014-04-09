@@ -1,10 +1,2623 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <asta:ProtokollEksport xmlns:asta="http://www.stiftelsen-asta.no">
     <asta:protokoll>
-        <asta:beskrivelse>Konvertering av matvaretabellen 2014 fra XLS til RDF/XML.</asta:beskrivelse>
-        <asta:navn>Matvaretabellen 2014</asta:navn>
-        <asta:offlineId>76238279403484783407</asta:offlineId>
-        <asta:sistEndret>2014-03-27T18:18:50.486+01:00</asta:sistEndret>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>matvareId</asta:bruksNavn>
+                <asta:sekvensNummer>47</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>matvareId</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>MatvareID</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>MatvareID</asta:bruksNavn>
+                    <asta:sekvensNummer>1</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>A</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>identifier</asta:bruksNavn>
+                <asta:sekvensNummer>5</asta:sekvensNummer>
+                <asta:namespace>http://purl.org/dc/elements/1.1/</asta:namespace>
+                <asta:navn>identifier</asta:navn>
+                <asta:prefix>dc</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Matvare</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Matvare</asta:bruksNavn>
+                    <asta:sekvensNummer>2</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>B</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Spiselig del</asta:bruksNavn>
+                <asta:sekvensNummer>6</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>spiseligDel</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Spiselig del</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Spiselig del</asta:bruksNavn>
+                    <asta:sekvensNummer>3</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>C</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>vann</asta:bruksNavn>
+                <asta:sekvensNummer>46</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>vann</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Vann</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Vann</asta:bruksNavn>
+                    <asta:sekvensNummer>4</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>E</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Kilojoule</asta:bruksNavn>
+                <asta:sekvensNummer>8</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>kilojoule</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Kilojoule</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Kilojoule</asta:bruksNavn>
+                    <asta:sekvensNummer>5</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>G</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Kilokalorier</asta:bruksNavn>
+                <asta:sekvensNummer>9</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>kilokalorier</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Kilokalorier</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Kilokalorier</asta:bruksNavn>
+                    <asta:sekvensNummer>6</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>I</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Fett</asta:bruksNavn>
+                <asta:sekvensNummer>10</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>fett</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Fett</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Fett</asta:bruksNavn>
+                    <asta:sekvensNummer>7</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>K</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Mettet</asta:bruksNavn>
+                <asta:sekvensNummer>11</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>mettet</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Mettet</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Mettet</asta:bruksNavn>
+                    <asta:sekvensNummer>8</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>M</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Trans</asta:bruksNavn>
+                <asta:sekvensNummer>12</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>trans</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Trans</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Trans</asta:bruksNavn>
+                    <asta:sekvensNummer>9</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>O</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Enumettet</asta:bruksNavn>
+                <asta:sekvensNummer>13</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>enumettet</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Enumettet</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Enumettet</asta:bruksNavn>
+                    <asta:sekvensNummer>10</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>Q</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Flerumettet</asta:bruksNavn>
+                <asta:sekvensNummer>14</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>flerumettet</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Flerumettet</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Flerumettet</asta:bruksNavn>
+                    <asta:sekvensNummer>11</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>S</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Kolesterol</asta:bruksNavn>
+                <asta:sekvensNummer>15</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>kolesterol</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Kolesterol</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Kolesterol</asta:bruksNavn>
+                    <asta:sekvensNummer>12</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>U</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Karbohydrat</asta:bruksNavn>
+                <asta:sekvensNummer>16</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>karbohydrat</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Karbohydrat</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Karbohydrat</asta:bruksNavn>
+                    <asta:sekvensNummer>13</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>W</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Stivelse</asta:bruksNavn>
+                <asta:sekvensNummer>17</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>stivelse</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Stivelse</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Stivelse</asta:bruksNavn>
+                    <asta:sekvensNummer>14</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>Y</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Mono+Disakk</asta:bruksNavn>
+                <asta:sekvensNummer>18</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>monoDisakk</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Mono+Disakk</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Mono+Disakk</asta:bruksNavn>
+                    <asta:sekvensNummer>15</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>AA</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Sukker, tilsatt</asta:bruksNavn>
+                <asta:sekvensNummer>19</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>sukkerTilsatt</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Sukker, tilsatt</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Sukker, tilsatt</asta:bruksNavn>
+                    <asta:sekvensNummer>16</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>AC</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Kostfiber</asta:bruksNavn>
+                <asta:sekvensNummer>20</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>kostfiber</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Kostfiber</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Kostfiber</asta:bruksNavn>
+                    <asta:sekvensNummer>17</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>AE</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Protein</asta:bruksNavn>
+                <asta:sekvensNummer>21</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>protein</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Protein</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Protein</asta:bruksNavn>
+                    <asta:sekvensNummer>18</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>AG</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Salt</asta:bruksNavn>
+                <asta:sekvensNummer>22</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>salt</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Salt</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Salt</asta:bruksNavn>
+                    <asta:sekvensNummer>19</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>AI</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Alkohol</asta:bruksNavn>
+                <asta:sekvensNummer>23</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>alkohol</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Alkohol</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Alkohol</asta:bruksNavn>
+                    <asta:sekvensNummer>20</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>AK</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Retinol</asta:bruksNavn>
+                <asta:sekvensNummer>24</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>retinol</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Retinol</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Retinol</asta:bruksNavn>
+                    <asta:sekvensNummer>21</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>AM</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Betakaroten</asta:bruksNavn>
+                <asta:sekvensNummer>25</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>betakaroten</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Betakaroten</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Betakaroten</asta:bruksNavn>
+                    <asta:sekvensNummer>22</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>AO</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Vitamin A</asta:bruksNavn>
+                <asta:sekvensNummer>26</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>vitaminA</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Vitamin A</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Vitamin A</asta:bruksNavn>
+                    <asta:sekvensNummer>23</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>AQ</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Vitamin D</asta:bruksNavn>
+                <asta:sekvensNummer>27</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>vitaminD</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Vitamin D</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Vitamin D</asta:bruksNavn>
+                    <asta:sekvensNummer>24</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>AS</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Vitamin E</asta:bruksNavn>
+                <asta:sekvensNummer>28</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>vitaminE</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Vitamin E</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Vitamin E</asta:bruksNavn>
+                    <asta:sekvensNummer>25</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>AU</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Tiamin</asta:bruksNavn>
+                <asta:sekvensNummer>29</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>tiamin</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Tiamin</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Tiamin</asta:bruksNavn>
+                    <asta:sekvensNummer>26</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>AW</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Riboflavin</asta:bruksNavn>
+                <asta:sekvensNummer>30</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>riboflavin</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Riboflavin</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Riboflavin</asta:bruksNavn>
+                    <asta:sekvensNummer>27</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>AY</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Niacin</asta:bruksNavn>
+                <asta:sekvensNummer>31</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>niacin</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Niacin</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Niacin</asta:bruksNavn>
+                    <asta:sekvensNummer>28</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>BA</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Vitamin B6</asta:bruksNavn>
+                <asta:sekvensNummer>32</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>vitaminB6</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Vitamin B6</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Vitamin B6</asta:bruksNavn>
+                    <asta:sekvensNummer>29</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>BC</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Folat</asta:bruksNavn>
+                <asta:sekvensNummer>33</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>folat</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Folat</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Folat</asta:bruksNavn>
+                    <asta:sekvensNummer>30</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>BE</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Vitamin B12</asta:bruksNavn>
+                <asta:sekvensNummer>34</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>vitaminB12</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Vitamin B12</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Vitamin B12</asta:bruksNavn>
+                    <asta:sekvensNummer>31</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>BG</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Vitamin C</asta:bruksNavn>
+                <asta:sekvensNummer>35</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>vitaminC</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Vitamin C</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Vitamin C</asta:bruksNavn>
+                    <asta:sekvensNummer>32</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>BI</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Kalsium</asta:bruksNavn>
+                <asta:sekvensNummer>36</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>kalsium</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Kalsium</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Kalsium</asta:bruksNavn>
+                    <asta:sekvensNummer>33</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>BK</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Jern</asta:bruksNavn>
+                <asta:sekvensNummer>37</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>jern</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Jern</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Jern</asta:bruksNavn>
+                    <asta:sekvensNummer>34</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>BM</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Natrium</asta:bruksNavn>
+                <asta:sekvensNummer>38</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>natrium</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Natrium</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Natrium</asta:bruksNavn>
+                    <asta:sekvensNummer>35</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>BO</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Kalium</asta:bruksNavn>
+                <asta:sekvensNummer>39</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>kalium</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Kalium</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Kalium</asta:bruksNavn>
+                    <asta:sekvensNummer>36</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>BQ</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Magnesium</asta:bruksNavn>
+                <asta:sekvensNummer>40</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>magnesium</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Magnesium</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Magnesium</asta:bruksNavn>
+                    <asta:sekvensNummer>37</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>BS</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Sink</asta:bruksNavn>
+                <asta:sekvensNummer>41</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>sink</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Sink</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Sink</asta:bruksNavn>
+                    <asta:sekvensNummer>38</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>BU</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Selen</asta:bruksNavn>
+                <asta:sekvensNummer>42</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>selen</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Selen</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Selen</asta:bruksNavn>
+                    <asta:sekvensNummer>39</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>BW</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Kobber</asta:bruksNavn>
+                <asta:sekvensNummer>43</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>kobber</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Kobber</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Kobber</asta:bruksNavn>
+                    <asta:sekvensNummer>40</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>BY</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Fosfor</asta:bruksNavn>
+                <asta:sekvensNummer>44</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>fosfor</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Fosfor</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Fosfor</asta:bruksNavn>
+                    <asta:sekvensNummer>41</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>CA</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:kobling>
+            <asta:enhetTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Jod</asta:bruksNavn>
+                <asta:sekvensNummer>45</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>jod</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enhetTil>
+            <asta:id/>
+            <asta:transformering/>
+            <asta:uttrykk xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="metaDataEnhetUttrykk">
+                <visningsTekst>Jod</visningsTekst>
+                <metaDataEnhet xsi:type="asta:xlsKolonne">
+                    <asta:bruksNavn>Jod</asta:bruksNavn>
+                    <asta:sekvensNummer>42</asta:sekvensNummer>
+                    <asta:ark>Ark1</asta:ark>
+                    <asta:navn>CC</asta:navn>
+                </metaDataEnhet>
+            </asta:uttrykk>
+        </asta:kobling>
+        <asta:metaDataSettFra xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsFil">
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>MatvareID</asta:bruksNavn>
+                <asta:sekvensNummer>1</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>A</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Matvare</asta:bruksNavn>
+                <asta:sekvensNummer>2</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>B</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Spiselig del</asta:bruksNavn>
+                <asta:sekvensNummer>3</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>C</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Vann</asta:bruksNavn>
+                <asta:sekvensNummer>4</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>E</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Kilojoule</asta:bruksNavn>
+                <asta:sekvensNummer>5</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>G</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Kilokalorier</asta:bruksNavn>
+                <asta:sekvensNummer>6</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>I</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Fett</asta:bruksNavn>
+                <asta:sekvensNummer>7</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>K</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Mettet</asta:bruksNavn>
+                <asta:sekvensNummer>8</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>M</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Trans</asta:bruksNavn>
+                <asta:sekvensNummer>9</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>O</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Enumettet</asta:bruksNavn>
+                <asta:sekvensNummer>10</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>Q</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Flerumettet</asta:bruksNavn>
+                <asta:sekvensNummer>11</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>S</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Kolesterol</asta:bruksNavn>
+                <asta:sekvensNummer>12</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>U</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Karbohydrat</asta:bruksNavn>
+                <asta:sekvensNummer>13</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>W</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Stivelse</asta:bruksNavn>
+                <asta:sekvensNummer>14</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>Y</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Mono+Disakk</asta:bruksNavn>
+                <asta:sekvensNummer>15</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>AA</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Sukker, tilsatt</asta:bruksNavn>
+                <asta:sekvensNummer>16</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>AC</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Kostfiber</asta:bruksNavn>
+                <asta:sekvensNummer>17</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>AE</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Protein</asta:bruksNavn>
+                <asta:sekvensNummer>18</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>AG</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Salt</asta:bruksNavn>
+                <asta:sekvensNummer>19</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>AI</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Alkohol</asta:bruksNavn>
+                <asta:sekvensNummer>20</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>AK</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Retinol</asta:bruksNavn>
+                <asta:sekvensNummer>21</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>AM</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Betakaroten</asta:bruksNavn>
+                <asta:sekvensNummer>22</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>AO</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Vitamin A</asta:bruksNavn>
+                <asta:sekvensNummer>23</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>AQ</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Vitamin D</asta:bruksNavn>
+                <asta:sekvensNummer>24</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>AS</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Vitamin E</asta:bruksNavn>
+                <asta:sekvensNummer>25</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>AU</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Tiamin</asta:bruksNavn>
+                <asta:sekvensNummer>26</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>AW</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Riboflavin</asta:bruksNavn>
+                <asta:sekvensNummer>27</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>AY</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Niacin</asta:bruksNavn>
+                <asta:sekvensNummer>28</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>BA</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Vitamin B6</asta:bruksNavn>
+                <asta:sekvensNummer>29</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>BC</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Folat</asta:bruksNavn>
+                <asta:sekvensNummer>30</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>BE</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Vitamin B12</asta:bruksNavn>
+                <asta:sekvensNummer>31</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>BG</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Vitamin C</asta:bruksNavn>
+                <asta:sekvensNummer>32</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>BI</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Kalsium</asta:bruksNavn>
+                <asta:sekvensNummer>33</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>BK</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Jern</asta:bruksNavn>
+                <asta:sekvensNummer>34</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>BM</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Natrium</asta:bruksNavn>
+                <asta:sekvensNummer>35</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>BO</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Kalium</asta:bruksNavn>
+                <asta:sekvensNummer>36</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>BQ</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Magnesium</asta:bruksNavn>
+                <asta:sekvensNummer>37</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>BS</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Sink</asta:bruksNavn>
+                <asta:sekvensNummer>38</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>BU</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Selen</asta:bruksNavn>
+                <asta:sekvensNummer>39</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>BW</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Kobber</asta:bruksNavn>
+                <asta:sekvensNummer>40</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>BY</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Fosfor</asta:bruksNavn>
+                <asta:sekvensNummer>41</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>CA</asta:navn>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xlsKolonne">
+                <asta:bruksNavn>Jod</asta:bruksNavn>
+                <asta:sekvensNummer>42</asta:sekvensNummer>
+                <asta:ark>Ark1</asta:ark>
+                <asta:navn>CC</asta:navn>
+            </asta:enheter>
+            <asta:navn>Matevaretabellen XLS</asta:navn>
+            <asta:sistEndret>2014-04-09T08:42:01.070+02:00</asta:sistEndret>
+            <asta:dataArk>Ark1</asta:dataArk>
+            <asta:startRad>3</asta:startRad>
+        </asta:metaDataSettFra>
+        <asta:metaDataSettTil xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlFil">
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>RDF</asta:bruksNavn>
+                <asta:sekvensNummer>3</asta:sekvensNummer>
+                <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+                <asta:navn>RDF</asta:navn>
+                <asta:prefix>rdf</asta:prefix>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Description</asta:bruksNavn>
+                    <asta:sekvensNummer>4</asta:sekvensNummer>
+                    <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+                    <asta:navn>Description</asta:navn>
+                    <asta:prefix>rdf</asta:prefix>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>identifier</asta:bruksNavn>
+                        <asta:sekvensNummer>5</asta:sekvensNummer>
+                        <asta:namespace>http://purl.org/dc/elements/1.1/</asta:namespace>
+                        <asta:navn>identifier</asta:navn>
+                        <asta:prefix>dc</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Alkohol</asta:bruksNavn>
+                        <asta:sekvensNummer>23</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>alkohol</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Betakaroten</asta:bruksNavn>
+                        <asta:sekvensNummer>25</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>betakaroten</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Enumettet</asta:bruksNavn>
+                        <asta:sekvensNummer>13</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>enumettet</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Fett</asta:bruksNavn>
+                        <asta:sekvensNummer>10</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>fett</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Flerumettet</asta:bruksNavn>
+                        <asta:sekvensNummer>14</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>flerumettet</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Folat</asta:bruksNavn>
+                        <asta:sekvensNummer>33</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>folat</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Fosfor</asta:bruksNavn>
+                        <asta:sekvensNummer>44</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>fosfor</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Jern</asta:bruksNavn>
+                        <asta:sekvensNummer>37</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>jern</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Jod</asta:bruksNavn>
+                        <asta:sekvensNummer>45</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>jod</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Kalium</asta:bruksNavn>
+                        <asta:sekvensNummer>39</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>kalium</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Kalsium</asta:bruksNavn>
+                        <asta:sekvensNummer>36</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>kalsium</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Karbohydrat</asta:bruksNavn>
+                        <asta:sekvensNummer>16</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>karbohydrat</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Kilojoule</asta:bruksNavn>
+                        <asta:sekvensNummer>8</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>kilojoule</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Kilokalorier</asta:bruksNavn>
+                        <asta:sekvensNummer>9</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>kilokalorier</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Kobber</asta:bruksNavn>
+                        <asta:sekvensNummer>43</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>kobber</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Kolesterol</asta:bruksNavn>
+                        <asta:sekvensNummer>15</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>kolesterol</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Kostfiber</asta:bruksNavn>
+                        <asta:sekvensNummer>20</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>kostfiber</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Magnesium</asta:bruksNavn>
+                        <asta:sekvensNummer>40</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>magnesium</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>matvareId</asta:bruksNavn>
+                        <asta:sekvensNummer>47</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>matvareId</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Mettet</asta:bruksNavn>
+                        <asta:sekvensNummer>11</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>mettet</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Mono+Disakk</asta:bruksNavn>
+                        <asta:sekvensNummer>18</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>monoDisakk</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Natrium</asta:bruksNavn>
+                        <asta:sekvensNummer>38</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>natrium</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Niacin</asta:bruksNavn>
+                        <asta:sekvensNummer>31</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>niacin</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Protein</asta:bruksNavn>
+                        <asta:sekvensNummer>21</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>protein</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Retinol</asta:bruksNavn>
+                        <asta:sekvensNummer>24</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>retinol</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Riboflavin</asta:bruksNavn>
+                        <asta:sekvensNummer>30</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>riboflavin</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Salt</asta:bruksNavn>
+                        <asta:sekvensNummer>22</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>salt</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Selen</asta:bruksNavn>
+                        <asta:sekvensNummer>42</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>selen</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Sink</asta:bruksNavn>
+                        <asta:sekvensNummer>41</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>sink</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Spiselig del</asta:bruksNavn>
+                        <asta:sekvensNummer>6</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>spiseligDel</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Stivelse</asta:bruksNavn>
+                        <asta:sekvensNummer>17</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>stivelse</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Sukker, tilsatt</asta:bruksNavn>
+                        <asta:sekvensNummer>19</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>sukkerTilsatt</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Tiamin</asta:bruksNavn>
+                        <asta:sekvensNummer>29</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>tiamin</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Trans</asta:bruksNavn>
+                        <asta:sekvensNummer>12</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>trans</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>vann</asta:bruksNavn>
+                        <asta:sekvensNummer>46</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>vann</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Vitamin A</asta:bruksNavn>
+                        <asta:sekvensNummer>26</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>vitaminA</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Vitamin B12</asta:bruksNavn>
+                        <asta:sekvensNummer>34</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>vitaminB12</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Vitamin B6</asta:bruksNavn>
+                        <asta:sekvensNummer>32</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>vitaminB6</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Vitamin C</asta:bruksNavn>
+                        <asta:sekvensNummer>35</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>vitaminC</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Vitamin D</asta:bruksNavn>
+                        <asta:sekvensNummer>27</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>vitaminD</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Vitamin E</asta:bruksNavn>
+                        <asta:sekvensNummer>28</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>vitaminE</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                </asta:xmlSchemaElements>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Description</asta:bruksNavn>
+                <asta:sekvensNummer>4</asta:sekvensNummer>
+                <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+                <asta:navn>Description</asta:navn>
+                <asta:prefix>rdf</asta:prefix>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>identifier</asta:bruksNavn>
+                    <asta:sekvensNummer>5</asta:sekvensNummer>
+                    <asta:namespace>http://purl.org/dc/elements/1.1/</asta:namespace>
+                    <asta:navn>identifier</asta:navn>
+                    <asta:prefix>dc</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Alkohol</asta:bruksNavn>
+                    <asta:sekvensNummer>23</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>alkohol</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Betakaroten</asta:bruksNavn>
+                    <asta:sekvensNummer>25</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>betakaroten</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Enumettet</asta:bruksNavn>
+                    <asta:sekvensNummer>13</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>enumettet</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Fett</asta:bruksNavn>
+                    <asta:sekvensNummer>10</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>fett</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Flerumettet</asta:bruksNavn>
+                    <asta:sekvensNummer>14</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>flerumettet</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Folat</asta:bruksNavn>
+                    <asta:sekvensNummer>33</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>folat</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Fosfor</asta:bruksNavn>
+                    <asta:sekvensNummer>44</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>fosfor</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Jern</asta:bruksNavn>
+                    <asta:sekvensNummer>37</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>jern</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Jod</asta:bruksNavn>
+                    <asta:sekvensNummer>45</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>jod</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Kalium</asta:bruksNavn>
+                    <asta:sekvensNummer>39</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>kalium</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Kalsium</asta:bruksNavn>
+                    <asta:sekvensNummer>36</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>kalsium</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Karbohydrat</asta:bruksNavn>
+                    <asta:sekvensNummer>16</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>karbohydrat</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Kilojoule</asta:bruksNavn>
+                    <asta:sekvensNummer>8</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>kilojoule</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Kilokalorier</asta:bruksNavn>
+                    <asta:sekvensNummer>9</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>kilokalorier</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Kobber</asta:bruksNavn>
+                    <asta:sekvensNummer>43</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>kobber</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Kolesterol</asta:bruksNavn>
+                    <asta:sekvensNummer>15</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>kolesterol</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Kostfiber</asta:bruksNavn>
+                    <asta:sekvensNummer>20</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>kostfiber</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Magnesium</asta:bruksNavn>
+                    <asta:sekvensNummer>40</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>magnesium</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>matvareId</asta:bruksNavn>
+                    <asta:sekvensNummer>47</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>matvareId</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Mettet</asta:bruksNavn>
+                    <asta:sekvensNummer>11</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>mettet</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Mono+Disakk</asta:bruksNavn>
+                    <asta:sekvensNummer>18</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>monoDisakk</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Natrium</asta:bruksNavn>
+                    <asta:sekvensNummer>38</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>natrium</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Niacin</asta:bruksNavn>
+                    <asta:sekvensNummer>31</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>niacin</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Protein</asta:bruksNavn>
+                    <asta:sekvensNummer>21</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>protein</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Retinol</asta:bruksNavn>
+                    <asta:sekvensNummer>24</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>retinol</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Riboflavin</asta:bruksNavn>
+                    <asta:sekvensNummer>30</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>riboflavin</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Salt</asta:bruksNavn>
+                    <asta:sekvensNummer>22</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>salt</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Selen</asta:bruksNavn>
+                    <asta:sekvensNummer>42</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>selen</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Sink</asta:bruksNavn>
+                    <asta:sekvensNummer>41</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>sink</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Spiselig del</asta:bruksNavn>
+                    <asta:sekvensNummer>6</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>spiseligDel</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Stivelse</asta:bruksNavn>
+                    <asta:sekvensNummer>17</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>stivelse</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Sukker, tilsatt</asta:bruksNavn>
+                    <asta:sekvensNummer>19</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>sukkerTilsatt</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Tiamin</asta:bruksNavn>
+                    <asta:sekvensNummer>29</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>tiamin</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Trans</asta:bruksNavn>
+                    <asta:sekvensNummer>12</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>trans</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>vann</asta:bruksNavn>
+                    <asta:sekvensNummer>46</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>vann</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Vitamin A</asta:bruksNavn>
+                    <asta:sekvensNummer>26</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>vitaminA</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Vitamin B12</asta:bruksNavn>
+                    <asta:sekvensNummer>34</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>vitaminB12</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Vitamin B6</asta:bruksNavn>
+                    <asta:sekvensNummer>32</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>vitaminB6</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Vitamin C</asta:bruksNavn>
+                    <asta:sekvensNummer>35</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>vitaminC</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Vitamin D</asta:bruksNavn>
+                    <asta:sekvensNummer>27</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>vitaminD</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Vitamin E</asta:bruksNavn>
+                    <asta:sekvensNummer>28</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>vitaminE</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>identifier</asta:bruksNavn>
+                <asta:sekvensNummer>5</asta:sekvensNummer>
+                <asta:namespace>http://purl.org/dc/elements/1.1/</asta:namespace>
+                <asta:navn>identifier</asta:navn>
+                <asta:prefix>dc</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Spiselig del</asta:bruksNavn>
+                <asta:sekvensNummer>6</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>spiseligDel</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Kilojoule</asta:bruksNavn>
+                <asta:sekvensNummer>8</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>kilojoule</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Kilokalorier</asta:bruksNavn>
+                <asta:sekvensNummer>9</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>kilokalorier</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Fett</asta:bruksNavn>
+                <asta:sekvensNummer>10</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>fett</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Mettet</asta:bruksNavn>
+                <asta:sekvensNummer>11</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>mettet</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Trans</asta:bruksNavn>
+                <asta:sekvensNummer>12</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>trans</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Enumettet</asta:bruksNavn>
+                <asta:sekvensNummer>13</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>enumettet</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Flerumettet</asta:bruksNavn>
+                <asta:sekvensNummer>14</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>flerumettet</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Kolesterol</asta:bruksNavn>
+                <asta:sekvensNummer>15</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>kolesterol</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Karbohydrat</asta:bruksNavn>
+                <asta:sekvensNummer>16</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>karbohydrat</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Stivelse</asta:bruksNavn>
+                <asta:sekvensNummer>17</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>stivelse</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Mono+Disakk</asta:bruksNavn>
+                <asta:sekvensNummer>18</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>monoDisakk</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Sukker, tilsatt</asta:bruksNavn>
+                <asta:sekvensNummer>19</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>sukkerTilsatt</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Kostfiber</asta:bruksNavn>
+                <asta:sekvensNummer>20</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>kostfiber</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Protein</asta:bruksNavn>
+                <asta:sekvensNummer>21</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>protein</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Salt</asta:bruksNavn>
+                <asta:sekvensNummer>22</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>salt</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Alkohol</asta:bruksNavn>
+                <asta:sekvensNummer>23</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>alkohol</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Retinol</asta:bruksNavn>
+                <asta:sekvensNummer>24</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>retinol</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Betakaroten</asta:bruksNavn>
+                <asta:sekvensNummer>25</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>betakaroten</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Vitamin A</asta:bruksNavn>
+                <asta:sekvensNummer>26</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>vitaminA</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Vitamin D</asta:bruksNavn>
+                <asta:sekvensNummer>27</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>vitaminD</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Vitamin E</asta:bruksNavn>
+                <asta:sekvensNummer>28</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>vitaminE</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Tiamin</asta:bruksNavn>
+                <asta:sekvensNummer>29</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>tiamin</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Riboflavin</asta:bruksNavn>
+                <asta:sekvensNummer>30</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>riboflavin</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Niacin</asta:bruksNavn>
+                <asta:sekvensNummer>31</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>niacin</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Vitamin B6</asta:bruksNavn>
+                <asta:sekvensNummer>32</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>vitaminB6</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Folat</asta:bruksNavn>
+                <asta:sekvensNummer>33</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>folat</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Vitamin B12</asta:bruksNavn>
+                <asta:sekvensNummer>34</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>vitaminB12</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Vitamin C</asta:bruksNavn>
+                <asta:sekvensNummer>35</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>vitaminC</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Kalsium</asta:bruksNavn>
+                <asta:sekvensNummer>36</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>kalsium</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Jern</asta:bruksNavn>
+                <asta:sekvensNummer>37</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>jern</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Natrium</asta:bruksNavn>
+                <asta:sekvensNummer>38</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>natrium</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Kalium</asta:bruksNavn>
+                <asta:sekvensNummer>39</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>kalium</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Magnesium</asta:bruksNavn>
+                <asta:sekvensNummer>40</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>magnesium</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Sink</asta:bruksNavn>
+                <asta:sekvensNummer>41</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>sink</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Selen</asta:bruksNavn>
+                <asta:sekvensNummer>42</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>selen</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Kobber</asta:bruksNavn>
+                <asta:sekvensNummer>43</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>kobber</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Fosfor</asta:bruksNavn>
+                <asta:sekvensNummer>44</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>fosfor</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>Jod</asta:bruksNavn>
+                <asta:sekvensNummer>45</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>jod</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>vann</asta:bruksNavn>
+                <asta:sekvensNummer>46</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>vann</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:enheter xsi:type="asta:xmlSchemaElement">
+                <asta:bruksNavn>matvareId</asta:bruksNavn>
+                <asta:sekvensNummer>47</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>matvareId</asta:navn>
+                <asta:prefix>msw</asta:prefix>
+            </asta:enheter>
+            <asta:navn>Matvaretabellen RDF/XML</asta:navn>
+            <asta:sistEndret>2014-04-09T08:42:01.070+02:00</asta:sistEndret>
+            <asta:recordSeparator>
+                <asta:bruksNavn>Description</asta:bruksNavn>
+                <asta:sekvensNummer>4</asta:sekvensNummer>
+                <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+                <asta:navn>Description</asta:navn>
+                <asta:prefix>rdf</asta:prefix>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>identifier</asta:bruksNavn>
+                    <asta:sekvensNummer>5</asta:sekvensNummer>
+                    <asta:namespace>http://purl.org/dc/elements/1.1/</asta:namespace>
+                    <asta:navn>identifier</asta:navn>
+                    <asta:prefix>dc</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Alkohol</asta:bruksNavn>
+                    <asta:sekvensNummer>23</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>alkohol</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Betakaroten</asta:bruksNavn>
+                    <asta:sekvensNummer>25</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>betakaroten</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Enumettet</asta:bruksNavn>
+                    <asta:sekvensNummer>13</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>enumettet</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Fett</asta:bruksNavn>
+                    <asta:sekvensNummer>10</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>fett</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Flerumettet</asta:bruksNavn>
+                    <asta:sekvensNummer>14</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>flerumettet</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Folat</asta:bruksNavn>
+                    <asta:sekvensNummer>33</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>folat</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Fosfor</asta:bruksNavn>
+                    <asta:sekvensNummer>44</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>fosfor</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Jern</asta:bruksNavn>
+                    <asta:sekvensNummer>37</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>jern</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Jod</asta:bruksNavn>
+                    <asta:sekvensNummer>45</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>jod</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Kalium</asta:bruksNavn>
+                    <asta:sekvensNummer>39</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>kalium</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Kalsium</asta:bruksNavn>
+                    <asta:sekvensNummer>36</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>kalsium</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Karbohydrat</asta:bruksNavn>
+                    <asta:sekvensNummer>16</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>karbohydrat</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Kilojoule</asta:bruksNavn>
+                    <asta:sekvensNummer>8</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>kilojoule</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Kilokalorier</asta:bruksNavn>
+                    <asta:sekvensNummer>9</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>kilokalorier</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Kobber</asta:bruksNavn>
+                    <asta:sekvensNummer>43</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>kobber</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Kolesterol</asta:bruksNavn>
+                    <asta:sekvensNummer>15</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>kolesterol</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Kostfiber</asta:bruksNavn>
+                    <asta:sekvensNummer>20</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>kostfiber</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Magnesium</asta:bruksNavn>
+                    <asta:sekvensNummer>40</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>magnesium</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>matvareId</asta:bruksNavn>
+                    <asta:sekvensNummer>47</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>matvareId</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Mettet</asta:bruksNavn>
+                    <asta:sekvensNummer>11</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>mettet</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Mono+Disakk</asta:bruksNavn>
+                    <asta:sekvensNummer>18</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>monoDisakk</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Natrium</asta:bruksNavn>
+                    <asta:sekvensNummer>38</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>natrium</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Niacin</asta:bruksNavn>
+                    <asta:sekvensNummer>31</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>niacin</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Protein</asta:bruksNavn>
+                    <asta:sekvensNummer>21</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>protein</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Retinol</asta:bruksNavn>
+                    <asta:sekvensNummer>24</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>retinol</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Riboflavin</asta:bruksNavn>
+                    <asta:sekvensNummer>30</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>riboflavin</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Salt</asta:bruksNavn>
+                    <asta:sekvensNummer>22</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>salt</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Selen</asta:bruksNavn>
+                    <asta:sekvensNummer>42</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>selen</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Sink</asta:bruksNavn>
+                    <asta:sekvensNummer>41</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>sink</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Spiselig del</asta:bruksNavn>
+                    <asta:sekvensNummer>6</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>spiseligDel</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Stivelse</asta:bruksNavn>
+                    <asta:sekvensNummer>17</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>stivelse</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Sukker, tilsatt</asta:bruksNavn>
+                    <asta:sekvensNummer>19</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>sukkerTilsatt</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Tiamin</asta:bruksNavn>
+                    <asta:sekvensNummer>29</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>tiamin</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Trans</asta:bruksNavn>
+                    <asta:sekvensNummer>12</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>trans</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>vann</asta:bruksNavn>
+                    <asta:sekvensNummer>46</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>vann</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Vitamin A</asta:bruksNavn>
+                    <asta:sekvensNummer>26</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>vitaminA</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Vitamin B12</asta:bruksNavn>
+                    <asta:sekvensNummer>34</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>vitaminB12</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Vitamin B6</asta:bruksNavn>
+                    <asta:sekvensNummer>32</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>vitaminB6</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Vitamin C</asta:bruksNavn>
+                    <asta:sekvensNummer>35</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>vitaminC</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Vitamin D</asta:bruksNavn>
+                    <asta:sekvensNummer>27</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>vitaminD</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Vitamin E</asta:bruksNavn>
+                    <asta:sekvensNummer>28</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>vitaminE</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+            </asta:recordSeparator>
+            <asta:rot>
+                <asta:bruksNavn>RDF</asta:bruksNavn>
+                <asta:sekvensNummer>3</asta:sekvensNummer>
+                <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+                <asta:navn>RDF</asta:navn>
+                <asta:prefix>rdf</asta:prefix>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>Description</asta:bruksNavn>
+                    <asta:sekvensNummer>4</asta:sekvensNummer>
+                    <asta:namespace>http://www.w3c.org/1999/02/22-rdf-syntax-ns#</asta:namespace>
+                    <asta:navn>Description</asta:navn>
+                    <asta:prefix>rdf</asta:prefix>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>identifier</asta:bruksNavn>
+                        <asta:sekvensNummer>5</asta:sekvensNummer>
+                        <asta:namespace>http://purl.org/dc/elements/1.1/</asta:namespace>
+                        <asta:navn>identifier</asta:navn>
+                        <asta:prefix>dc</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Alkohol</asta:bruksNavn>
+                        <asta:sekvensNummer>23</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>alkohol</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Betakaroten</asta:bruksNavn>
+                        <asta:sekvensNummer>25</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>betakaroten</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Enumettet</asta:bruksNavn>
+                        <asta:sekvensNummer>13</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>enumettet</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Fett</asta:bruksNavn>
+                        <asta:sekvensNummer>10</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>fett</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Flerumettet</asta:bruksNavn>
+                        <asta:sekvensNummer>14</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>flerumettet</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Folat</asta:bruksNavn>
+                        <asta:sekvensNummer>33</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>folat</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Fosfor</asta:bruksNavn>
+                        <asta:sekvensNummer>44</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>fosfor</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Jern</asta:bruksNavn>
+                        <asta:sekvensNummer>37</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>jern</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Jod</asta:bruksNavn>
+                        <asta:sekvensNummer>45</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>jod</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Kalium</asta:bruksNavn>
+                        <asta:sekvensNummer>39</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>kalium</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Kalsium</asta:bruksNavn>
+                        <asta:sekvensNummer>36</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>kalsium</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Karbohydrat</asta:bruksNavn>
+                        <asta:sekvensNummer>16</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>karbohydrat</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Kilojoule</asta:bruksNavn>
+                        <asta:sekvensNummer>8</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>kilojoule</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Kilokalorier</asta:bruksNavn>
+                        <asta:sekvensNummer>9</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>kilokalorier</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Kobber</asta:bruksNavn>
+                        <asta:sekvensNummer>43</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>kobber</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Kolesterol</asta:bruksNavn>
+                        <asta:sekvensNummer>15</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>kolesterol</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Kostfiber</asta:bruksNavn>
+                        <asta:sekvensNummer>20</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>kostfiber</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Magnesium</asta:bruksNavn>
+                        <asta:sekvensNummer>40</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>magnesium</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>matvareId</asta:bruksNavn>
+                        <asta:sekvensNummer>47</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>matvareId</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Mettet</asta:bruksNavn>
+                        <asta:sekvensNummer>11</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>mettet</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Mono+Disakk</asta:bruksNavn>
+                        <asta:sekvensNummer>18</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>monoDisakk</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Natrium</asta:bruksNavn>
+                        <asta:sekvensNummer>38</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>natrium</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Niacin</asta:bruksNavn>
+                        <asta:sekvensNummer>31</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>niacin</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Protein</asta:bruksNavn>
+                        <asta:sekvensNummer>21</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>protein</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Retinol</asta:bruksNavn>
+                        <asta:sekvensNummer>24</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>retinol</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Riboflavin</asta:bruksNavn>
+                        <asta:sekvensNummer>30</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>riboflavin</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Salt</asta:bruksNavn>
+                        <asta:sekvensNummer>22</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>salt</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Selen</asta:bruksNavn>
+                        <asta:sekvensNummer>42</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>selen</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Sink</asta:bruksNavn>
+                        <asta:sekvensNummer>41</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>sink</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Spiselig del</asta:bruksNavn>
+                        <asta:sekvensNummer>6</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>spiseligDel</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Stivelse</asta:bruksNavn>
+                        <asta:sekvensNummer>17</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>stivelse</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Sukker, tilsatt</asta:bruksNavn>
+                        <asta:sekvensNummer>19</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>sukkerTilsatt</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Tiamin</asta:bruksNavn>
+                        <asta:sekvensNummer>29</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>tiamin</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Trans</asta:bruksNavn>
+                        <asta:sekvensNummer>12</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>trans</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>vann</asta:bruksNavn>
+                        <asta:sekvensNummer>46</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>vann</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Vitamin A</asta:bruksNavn>
+                        <asta:sekvensNummer>26</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>vitaminA</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Vitamin B12</asta:bruksNavn>
+                        <asta:sekvensNummer>34</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>vitaminB12</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Vitamin B6</asta:bruksNavn>
+                        <asta:sekvensNummer>32</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>vitaminB6</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Vitamin C</asta:bruksNavn>
+                        <asta:sekvensNummer>35</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>vitaminC</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Vitamin D</asta:bruksNavn>
+                        <asta:sekvensNummer>27</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>vitaminD</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                    <asta:xmlSchemaElements>
+                        <asta:bruksNavn>Vitamin E</asta:bruksNavn>
+                        <asta:sekvensNummer>28</asta:sekvensNummer>
+                        <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                        <asta:navn>vitaminE</asta:navn>
+                        <asta:prefix>msw</asta:prefix>
+                    </asta:xmlSchemaElements>
+                </asta:xmlSchemaElements>
+            </asta:rot>
+        </asta:metaDataSettTil>
+        <asta:navn>Matvaretabellen</asta:navn>
+        <asta:offlineId>24262567786954758989</asta:offlineId>
+        <asta:sistEndret>2014-04-09T08:42:01.070+02:00</asta:sistEndret>
         <asta:type>REGISTRERING</asta:type>
         <asta:versjonNr>1</asta:versjonNr>
     </asta:protokoll>

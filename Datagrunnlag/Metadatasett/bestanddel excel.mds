@@ -8,25 +8,31 @@
             <asta:navn>A</asta:navn>
         </asta:enheter>
         <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
-            <asta:bruksNavn>Enhet</asta:bruksNavn>
+            <asta:bruksNavn>URI</asta:bruksNavn>
             <asta:sekvensNummer>2</asta:sekvensNummer>
             <asta:ark>Ark1</asta:ark>
             <asta:navn>B</asta:navn>
         </asta:enheter>
         <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
-            <asta:bruksNavn>Type</asta:bruksNavn>
+            <asta:bruksNavn>Enhet</asta:bruksNavn>
             <asta:sekvensNummer>3</asta:sekvensNummer>
             <asta:ark>Ark1</asta:ark>
             <asta:navn>C</asta:navn>
         </asta:enheter>
         <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
-            <asta:bruksNavn>Beskrivelse</asta:bruksNavn>
+            <asta:bruksNavn>Type</asta:bruksNavn>
             <asta:sekvensNummer>4</asta:sekvensNummer>
             <asta:ark>Ark1</asta:ark>
             <asta:navn>D</asta:navn>
         </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xlsKolonne">
+            <asta:bruksNavn>Beskrivelse</asta:bruksNavn>
+            <asta:sekvensNummer>5</asta:sekvensNummer>
+            <asta:ark>Ark1</asta:ark>
+            <asta:navn>E</asta:navn>
+        </asta:enheter>
         <asta:navn>Bestanddeler</asta:navn>
-        <asta:sistEndret>2014-03-28T07:49:01.541+01:00</asta:sistEndret>
+        <asta:sistEndret>2014-03-28T15:57:25.100+01:00</asta:sistEndret>
         <asta:dataArk>Ark1</asta:dataArk>
         <asta:startRad>2</asta:startRad>
     </asta:xlsFil>

@@ -28,6 +28,13 @@
                     <asta:prefix>dc</asta:prefix>
                 </asta:xmlSchemaElements>
                 <asta:xmlSchemaElements>
+                    <asta:bruksNavn>About</asta:bruksNavn>
+                    <asta:sekvensNummer>7</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>about</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
                     <asta:bruksNavn>enhet</asta:bruksNavn>
                     <asta:sekvensNummer>4</asta:sekvensNummer>
                     <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
@@ -62,6 +69,13 @@
                 <asta:namespace>http://purl.org/dc/elements/1.1/</asta:namespace>
                 <asta:navn>title</asta:navn>
                 <asta:prefix>dc</asta:prefix>
+            </asta:xmlSchemaElements>
+            <asta:xmlSchemaElements>
+                <asta:bruksNavn>About</asta:bruksNavn>
+                <asta:sekvensNummer>7</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>about</asta:navn>
+                <asta:prefix>msw</asta:prefix>
             </asta:xmlSchemaElements>
             <asta:xmlSchemaElements>
                 <asta:bruksNavn>enhet</asta:bruksNavn>
@@ -106,8 +120,15 @@
             <asta:navn>type</asta:navn>
             <asta:prefix>rdf</asta:prefix>
         </asta:enheter>
+        <asta:enheter xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="asta:xmlSchemaElement">
+            <asta:bruksNavn>About</asta:bruksNavn>
+            <asta:sekvensNummer>7</asta:sekvensNummer>
+            <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+            <asta:navn>about</asta:navn>
+            <asta:prefix>msw</asta:prefix>
+        </asta:enheter>
         <asta:navn>Bestanddel</asta:navn>
-        <asta:sistEndret>2014-03-27T19:27:45.962+01:00</asta:sistEndret>
+        <asta:sistEndret>2014-03-28T15:56:40.747+01:00</asta:sistEndret>
         <asta:recordSeparator>
             <asta:bruksNavn>Description</asta:bruksNavn>
             <asta:sekvensNummer>2</asta:sekvensNummer>
@@ -127,6 +148,13 @@
                 <asta:namespace>http://purl.org/dc/elements/1.1/</asta:namespace>
                 <asta:navn>title</asta:navn>
                 <asta:prefix>dc</asta:prefix>
+            </asta:xmlSchemaElements>
+            <asta:xmlSchemaElements>
+                <asta:bruksNavn>About</asta:bruksNavn>
+                <asta:sekvensNummer>7</asta:sekvensNummer>
+                <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                <asta:navn>about</asta:navn>
+                <asta:prefix>msw</asta:prefix>
             </asta:xmlSchemaElements>
             <asta:xmlSchemaElements>
                 <asta:bruksNavn>enhet</asta:bruksNavn>
@@ -168,6 +196,13 @@
                     <asta:namespace>http://purl.org/dc/elements/1.1/</asta:namespace>
                     <asta:navn>title</asta:navn>
                     <asta:prefix>dc</asta:prefix>
+                </asta:xmlSchemaElements>
+                <asta:xmlSchemaElements>
+                    <asta:bruksNavn>About</asta:bruksNavn>
+                    <asta:sekvensNummer>7</asta:sekvensNummer>
+                    <asta:namespace>http://www.mesan.no/semantisk-web#</asta:namespace>
+                    <asta:navn>about</asta:navn>
+                    <asta:prefix>msw</asta:prefix>
                 </asta:xmlSchemaElements>
                 <asta:xmlSchemaElements>
                     <asta:bruksNavn>enhet</asta:bruksNavn>
