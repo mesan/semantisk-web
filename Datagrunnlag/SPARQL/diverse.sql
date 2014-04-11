@@ -134,3 +134,18 @@ WHERE{
 }
 ORDER BY ?s
 LIMIT 50
+--
+-- Litt ryddigere output
+--
+PREFIX dc:    <http://purl.org/dc/elements/1.1/> 
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX msw:   <http://www.mesan.no/semantisk-web#> 
+SELECT ?identifier ?title ?o ?enhet
+WHERE{
+ ?s ?p ?o.
+ ?s dc:identifier ?identifier.
+ ?p dc:title ?title.
+ ?p msw:enhet ?enhet.
+}
+ORDER BY ?s
+LIMIT 50
