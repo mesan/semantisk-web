@@ -30,7 +30,7 @@ gulp.task('build-less', function () {
   .pipe(changed('build/css'))
   .pipe(less({
     paths: [path.join(__dirname, 'less', 'includes')]
-  }))
+  }).on('error', gutil.log))
   .pipe(gulp.dest('build/css'));
 
 });
